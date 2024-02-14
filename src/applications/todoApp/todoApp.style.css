@@ -1,0 +1,53 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo-container h1 {
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.input-box button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #5db363;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+li label {
+  display: flex;
+  align-items: center;
+}
+
+li input[type="checkbox"] {
+  margin-right: 5px;
+ 
+}
+.delete-btn{
+    background-color: #5db363;
+}

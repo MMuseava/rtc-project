@@ -22,7 +22,7 @@ const LoginPage = () => {
 		) {
 			const user = {
 				name: userInfo.username,
-				lastLoginTime: new Date(),
+				lastLoginTime: "",
 				isAuthenticated: true,
 			};
 			dispatch(login(user));
@@ -33,7 +33,7 @@ const LoginPage = () => {
 	};
 
 	const onChangeHandler = (e) => {
-		setUserInfo({ ...userInfo, [e.target.value]: e.target.name });
+		setUserInfo({ ...userInfo, [e.target.name]: e.target.value });
 	};
 	return (
 		<div>
